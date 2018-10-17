@@ -1,7 +1,10 @@
-Running on host node31-031
-Time is Wed Oct 17 17:52:17 BST 2018
+Running on host node31-029
+Time is Wed Oct 17 19:18:52 BST 2018
 Directory is /panfs/panasas01/cosc/kn16063/COMS30005-HPC-Stencil
-PBS job ID is 7548231.master.cm.cluster
+PBS job ID is 7548531.master.cm.cluster
 ------------------------------------
- runtime: 8.173557 s
+ runtime: 8.205631 s
+------------------------------------
+------------------------------------
+ runtime: 6.801651 s
 ------------------------------------

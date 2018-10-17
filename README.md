@@ -6,7 +6,13 @@
 	- Set up ssh access using private and public keys for quick login into Blue Crystal Phase 3 (BCP3).
 	- Set up direct access from local PC to BCP3, and also from PC to snowy to BCP3 for home network connection.
 	- Set up GitHub repository and cloned it on both PC and BCP3.
-
+2. Setting up efficient workspace
+	- In order to speed up efficiency in testing the different optimizer flags for gcc 
+		- edited make file to compile several C programs with differenc flags.
+		- for each C programme, make a separate .job file to set the parameters for the queue.
+		- use a bash shell to call every .job file.
+3. Efficient logging
+	- Made separate folders for output and errors.
 
 ----------------------------------------------------------------------------------------------------------------
 QUESTION:
