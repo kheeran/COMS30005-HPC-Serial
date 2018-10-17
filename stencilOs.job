@@ -1,7 +1,7 @@
 #!/bin/bash
-#PBS -N stencilO1
-#PBS -e error/stencilO1.error
-#PBS -o output/stencilO1.out
+#PBS -N stencilOs
+#PBS -e error/stencilOs.error
+#PBS -o output/stencilOs.out
 #PBS -m a
 #PBS -qteaching
 #PBS -lnodes=1:ppn=16
@@ -13,4 +13,4 @@ echo Node: `hostname`
 echo Time: `date`
 echo Job ID: $PBS_JOBID
 
-./stencil-O1 1024 1024 100
+./stencil-Os 1024 1024 100

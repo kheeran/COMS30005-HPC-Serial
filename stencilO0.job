@@ -9,9 +9,8 @@
 
 cd $PBS_O_WORKDIR
 
-echo Running on host `hostname`
-echo Time is `date`
-echo Directory is `pwd`
-echo PBS job ID is $PBS_JOBID
+echo Node: `hostname`
+echo Time: `date`
+echo Job ID: $PBS_JOBID
 
 ./stencil-O0 1024 1024 100
