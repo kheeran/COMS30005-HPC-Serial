@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -N stencil
+#PBS -e stencil.error
 #PBS -o stencil.out
-#PBS -joe
 #PBS -m a
 #PBS -qteaching
 #PBS -lnodes=1:ppn=16
@@ -15,4 +15,3 @@ echo Directory is `pwd`
 echo PBS job ID is $PBS_JOBID
 
 ./stencil 1024 1024 100
-
