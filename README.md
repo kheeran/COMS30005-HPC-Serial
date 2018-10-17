@@ -1,3 +1,16 @@
+# **COMS30005 Intro to HPC**
+
+### Assignment 1 - Serial Optimisation :
+
+1. Bookwork :
+	- Set up ssh access using private and public keys for quick login into Blue Crystal Phase 3 (BCP3).
+	- Set up direct access from local PC to BCP3, and also from PC to snowy to BCP3 for home network connection.
+	- Set up GitHub repository and cloned it on both PC and BCP3.
+
+
+----------------------------------------------------------------------------------------------------------------
+QUESTION:
+
 # 5-point stencil
 
 This code implements a weighted 5-point stencil on a rectangular grid.
