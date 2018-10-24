@@ -13,6 +13,10 @@
 		- use a bash shell to call every .job file.
 3. Efficient logging
 	- Made separate folders for output and errors.
+4. Different compilers
+	- using 2 different compilers, Intel and GNU, to find out whcih optimises the code better. 
+5.
+
 
 ----------------------------------------------------------------------------------------------------------------
 QUESTION:
