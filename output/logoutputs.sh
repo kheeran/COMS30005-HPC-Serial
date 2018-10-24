@@ -39,3 +39,4 @@ echo "## ICC fast Optimisation flag:" >> outputlog.md
 cat stencilfast-i.out >> outputlog.md
 echo "" >> outputlog.md
 echo "" >> outputlog.md
+outputlog.md > templog.md
