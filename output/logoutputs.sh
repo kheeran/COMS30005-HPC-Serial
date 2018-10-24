@@ -23,4 +23,19 @@ echo "" >> outputlog.md
 echo "## GCC Ofast Optimisation flag:" >> outputlog.md
 cat stencilOfast.out >> outputlog.md
 echo "" >> outputlog.md
+echo "## ICC Default Optimisation flag:" >> outputlog.md
+cat stencilO-i.out >> outputlog.md
+echo "" >> outputlog.md
+echo "## ICC O2 Optimisation flag:" >> outputlog.md
+cat stencilO2-i.out >> outputlog.md
+echo "" >> outputlog.md
+echo "## ICC O3 Optimisation flag:" >> outputlog.md
+cat stencilO3-i.out >> outputlog.md
+echo "" >> outputlog.md
+echo "## ICC Ofast Optimisation flag:" >> outputlog.md
+cat stencilOfast-i.out >> outputlog.md
+echo "" >> outputlog.md
+echo "## ICC fast Optimisation flag:" >> outputlog.md
+cat stencilfast-i.out >> outputlog.md
+echo "" >> outputlog.md
 echo "" >> outputlog.md

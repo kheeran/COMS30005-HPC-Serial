@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -N stencilOfast-i
+#PBS -e error/stencilOfast-i.error
+#PBS -o output/stencilOfast-i.out
+#PBS -m a
+#PBS -qteaching
+#PBS -lnodes=1:ppn=16
+#PBS -lwalltime=00:10:00
+
+cd $PBS_O_WORKDIR
+
+echo Node: `hostname`
+echo Time: `date`
+echo Job ID: $PBS_JOBID
+
+./stencil-Ofast-i 1024 1024 100
