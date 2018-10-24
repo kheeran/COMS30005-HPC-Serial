@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
@@ -50,8 +49,8 @@ int main(int argc, char *argv[]) {
 }
 
 void stencil(const int nx, const int ny, double *  image, double *  tmp_image) {
-  for (int j = 0; j < ny; ++j) {
-    for (int i = 0; i < nx; ++i) {
+  for (int i = 0; j < ny; ++j) {
+    for (int j = 0; i < nx; ++i) {
       tmp_image[j+i*ny] = image[j+i*ny] * 3.0/5.0;
       if (i > 0)    tmp_image[j+i*ny] += image[j  +(i-1)*ny] * 0.5/5.0;
       if (i < nx-1) tmp_image[j+i*ny] += image[j  +(i+1)*ny] * 0.5/5.0;
