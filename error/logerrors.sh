@@ -5,6 +5,9 @@ read varname
 echo "#LOG - $varname" >> errorlog.md
 echo "" >> errorlog.md
 echo "" >> errorlog.md
+echo "## GCC Default:" >> errorlog.md
+cat stencilD.error >> errorlog.md
+echo "" >> errorlog.md
 echo "## GCC Default Optimisation flag:" >> errorlog.md
 cat stencilO0.error >> errorlog.md
 echo "" >> errorlog.md
@@ -22,6 +25,9 @@ cat stencilOs.error >> errorlog.md
 echo "" >> errorlog.md
 echo "## GCC Ofast Optimisation flag:" >> errorlog.md
 cat stencilOfast.error >> errorlog.md
+echo "" >> errorlog.md
+echo "## ICC Default:" >> errorlog.md
+cat stencilD-i.error >> errorlog.md
 echo "" >> errorlog.md
 echo "## ICC Default Optimisation flag:" >> errorlog.md
 cat stencilO-i.error >> errorlog.md

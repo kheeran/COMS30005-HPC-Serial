@@ -5,6 +5,9 @@ read varname
 echo "#LOG - $varname" >> outputlog.md
 echo "" >> outputlog.md
 echo "" >> outputlog.md
+echo "## GCC Default:" >> outputlog.md
+cat stencilD.out >> outputlog.md
+echo "" >> outputlog.md
 echo "## GCC Default Optimisation flag:" >> outputlog.md
 cat stencilO0.out >> outputlog.md
 echo "" >> outputlog.md
@@ -23,6 +26,9 @@ echo "" >> outputlog.md
 echo "## GCC Ofast Optimisation flag:" >> outputlog.md
 cat stencilOfast.out >> outputlog.md
 echo "" >> outputlog.md
+echo "## ICC Default:" >> outputlog.md
+cat stencilD-i.out >> outputlog.md
+echo "" >> outputlog.md
 echo "## ICC Default Optimisation flag:" >> outputlog.md
 cat stencilO-i.out >> outputlog.md
 echo "" >> outputlog.md
@@ -39,5 +45,3 @@ echo "## ICC fast Optimisation flag:" >> outputlog.md
 cat stencilfast-i.out >> outputlog.md
 echo "" >> outputlog.md
 echo "" >> outputlog.md
-cp tabularlog.md templog.md
-paste outputlog.md templog.md | column -s $'\t' -tx > tabularlog.md
