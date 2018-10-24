@@ -29,3 +29,31 @@ Warning: Permanently added 'node31-039,10.131.0.231' (RSA) to the list of known 
 Warning: Permanently added 'node43-037,10.131.1.97' (RSA) to the list of known hosts.
 
 
+#LOG - Removing static-libgcc and gprof in compiling
+
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+Warning: Permanently added 'node43-038,10.131.1.98' (RSA) to the list of known hosts.
+
+## ICC fast Optimisation flag:
+Warning: Permanently added 'node43-039,10.131.1.99' (RSA) to the list of known hosts.
+
+
