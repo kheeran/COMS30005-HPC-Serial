@@ -339,3 +339,22 @@ Job ID: 7616468.master.cm.cluster
  runtime: 81.564877 s
 ------------------------------------
 
+#LOG - 8000
+
+
+## GCC Default:
+Node: node31-030
+Time: Thu Oct 25 16:09:57 BST 2018
+Job ID: 7616460.master.cm.cluster
+------------------------------------
+ runtime: 82.773333 s
+------------------------------------
+
+## ICC Default:
+Node: node31-031
+Time: Thu Oct 25 16:21:46 BST 2018
+Job ID: 7616543.master.cm.cluster
+------------------------------------
+ runtime: 262.927674 s
+------------------------------------
+
