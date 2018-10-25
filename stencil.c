@@ -53,11 +53,11 @@ int main(int argc, char *argv[]) {
 void stencil(const int nx, const int ny, float *  image, float *  tmp_image) {
   for (int i = 0; i < ny; ++i) {
     for (int j = 0; j < nx; ++j) {
-      tmp_image[j+i*ny] = image[j+i*ny] * 0.6;
-      if (i > 0)    tmp_image[j+i*ny] += image[j  +(i-1)*ny] * 0.1;
-      if (i < nx-1) tmp_image[j+i*ny] += image[j  +(i+1)*ny] * 0.1;
-      if (j > 0)    tmp_image[j+i*ny] += image[j-1+i*ny] * 0.1;
-      if (j < ny-1) tmp_image[j+i*ny] += image[j+1+i*ny] * 0.1;
+      tmp_image[j+i*ny] = image[j+i*ny] * 0.6f;
+      if (i > 0)    tmp_image[j+i*ny] += image[j  +(i-1)*ny] * 0.1f;
+      if (i < nx-1) tmp_image[j+i*ny] += image[j  +(i+1)*ny] * 0.1f;
+      if (j > 0)    tmp_image[j+i*ny] += image[j-1+i*ny] * 0.1f;
+      if (j < ny-1) tmp_image[j+i*ny] += image[j+1+i*ny] * 0.1f;
     }
   }
 }
