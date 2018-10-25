@@ -360,3 +360,63 @@ Warning: Permanently added 'node46-017,10.131.1.41' (RSA) to the list of known h
 ## ICC fast Optimisation flag:
 
 
+#LOG - 25/10/18 5:11 double to float 4096
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+
+#LOG - 25/10/18 5:25 double to float 8000
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+

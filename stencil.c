@@ -5,9 +5,9 @@
 // Define output file name
 #define OUTPUT_FILE "stencil.pgm"
 
-void stencil(const int nx, const int ny, float *  image, float *  tmp_image);
-void init_image(const int nx, const int ny, float *  image, float *  tmp_image);
-void output_image(const char * file_name, const int nx, const int ny, float *image);
+void stencil(const int nx, const int ny, double *  image, double *  tmp_image);
+void init_image(const int nx, const int ny, double *  image, double *  tmp_image);
+void output_image(const char * file_name, const int nx, const int ny, double *image);
 double wtime(void);
 
 int main(int argc, char *argv[]) {
@@ -20,14 +20,14 @@ int main(int argc, char *argv[]) {
 
   // Initiliase problem dimensions from command line arguments
   // int nx = atoi(argv[1]);
-  int nx = atoi("4096");
+  int nx = atoi("8000");
   int ny = nx;
   // int ny = atoi(argv[2]);
   int niters = atoi(argv[3]);
 
   // Allocate the image
-  float *image = malloc(sizeof(float)*nx*ny);
-  float *tmp_image = malloc(sizeof(float)*nx*ny);
+  double *image = malloc(sizeof(double)*nx*ny);
+  double *tmp_image = malloc(sizeof(double)*nx*ny);
 
   // Set the input image
   init_image(nx, ny, image, tmp_image);
@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
   free(image);
 }
 
-void stencil(const int nx, const int ny, float *  image, float *  tmp_image) {
+void stencil(const int nx, const int ny, double *  image, double *  tmp_image) {
   for (int i = 0; i < ny; ++i) {
     for (int j = 0; j < nx; ++j) {
       tmp_image[j+i*ny] = image[j+i*ny] * 0.6;
@@ -63,7 +63,7 @@ void stencil(const int nx, const int ny, float *  image, float *  tmp_image) {
 }
 
 // Create the input image
-void init_image(const int nx, const int ny, float *  image, float *  tmp_image) {
+void init_image(const int nx, const int ny, double *  image, double *  tmp_image) {
   // Zero everything
   for (int j = 0; j < ny; ++j) {
     for (int i = 0; i < nx; ++i) {
@@ -86,7 +86,7 @@ void init_image(const int nx, const int ny, float *  image, float *  tmp_image) 
 }
 
 // Routine to output the image in Netpbm grayscale binary image format
-void output_image(const char * file_name, const int nx, const int ny, float *image) {
+void output_image(const char * file_name, const int nx, const int ny, double *image) {
 
   // Open output file
   FILE *fp = fopen(file_name, "w");
@@ -101,7 +101,7 @@ void output_image(const char * file_name, const int nx, const int ny, float *ima
   // Calculate maximum value of image
   // This is used to rescale the values
   // to a range of 0-255 for output
-  float maximum = 0.0;
+  double maximum = 0.0;
   for (int j = 0; j < ny; ++j) {
     for (int i = 0; i < nx; ++i) {
       if (image[j+i*ny] > maximum)
