@@ -10,7 +10,7 @@ echo "" >> gproflog/stencil-D.log
 echo "#LOG - $varname" >> gproflog/stencil-O0.log
 echo "" >> gproflog/stencil-O0.log
 gprof stencil-O0 >> gproflog/stencil-O0.log
-echo "" >> gproflog/stencil-O0
+echo "" >> gproflog/stencil-O0.log
 echo "#LOG - $varname" >> gproflog/stencil-O1.log
 echo "" >> gproflog/stencil-O1.log
 gprof stencil-O1 >> gproflog/stencil-O1.log
@@ -54,5 +54,4 @@ echo "" >> gproflog/stencil-Ofast-i.log
 echo "#LOG - $varname" >> gproflog/stencil-fast-i.log
 echo "" >> gproflog/stencil-fast-i.log
 gprof stencil-fast-i >> gproflog/stencil-fast-i.log
-eco "#LOG - $varname" >> gproflog/stencil-
-echo "" >> gproflog/stencil-o "" >> gproflog/stencil-fast-i.log
+echo "" >> gproflog/stencil-fast-i.log

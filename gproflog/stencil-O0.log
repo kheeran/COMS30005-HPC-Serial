@@ -151,3 +151,4 @@ Index by function name
 
    [5] __libc_csu_init         [2] init_image              [1] stencil
    [4] _fini                   [3] output_image
+
