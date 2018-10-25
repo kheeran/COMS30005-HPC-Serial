@@ -20,8 +20,8 @@ int main(int argc, char *argv[]) {
 
   // Initiliase problem dimensions from command line arguments
   // int nx = atoi(argv[1]);
-  int nx = atoi("1024")
-  int ny = atoi("1024")
+  int nx = atoi("1024");
+  int ny = atoi("1024");
   // int ny = atoi(argv[2]);
   int niters = atoi(argv[3]);
 
