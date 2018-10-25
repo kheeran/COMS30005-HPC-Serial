@@ -282,3 +282,22 @@ Job ID: 7613764.master.cm.cluster
  runtime: 4.433494 s
 ------------------------------------
 
+#LOG - changing floats
+
+
+## GCC Default:
+Node: node31-031
+Time: Thu Oct 25 12:55:06 BST 2018
+Job ID: 7613991.master.cm.cluster
+------------------------------------
+ runtime: 6.573720 s
+------------------------------------
+
+## ICC Default:
+Node: node43-038
+Time: Thu Oct 25 12:55:06 BST 2018
+Job ID: 7613998.master.cm.cluster
+------------------------------------
+ runtime: 5.861757 s
+------------------------------------
+
