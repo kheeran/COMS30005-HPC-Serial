@@ -187,3 +187,41 @@ Job ID: 7603981.master.cm.cluster
  runtime: 4.388271 s
 ------------------------------------
 
+#LOG - 25/10/18 4:54 doubles to floats 1024
+
+
+## GCC Default:
+Node: node31-030
+Time: Thu Oct 25 04:53:24 BST 2018
+Job ID: 7604002.master.cm.cluster
+------------------------------------
+ runtime: 0.000000 s
+------------------------------------
+
+## ICC Default:
+Node: node31-037
+Time: Thu Oct 25 04:53:25 BST 2018
+Job ID: 7604009.master.cm.cluster
+------------------------------------
+ runtime: 0.000000 s
+------------------------------------
+
+#LOG - 25/10/18 5:01 double to float 1024 redo
+
+
+## GCC Default:
+Node: node31-029
+Time: Thu Oct 25 05:00:17 BST 2018
+Job ID: 7604029.master.cm.cluster
+------------------------------------
+ runtime: 6.576068 s
+------------------------------------
+
+## ICC Default:
+Node: node43-037
+Time: Thu Oct 25 05:00:18 BST 2018
+Job ID: 7604036.master.cm.cluster
+------------------------------------
+ runtime: 5.847942 s
+------------------------------------
+
