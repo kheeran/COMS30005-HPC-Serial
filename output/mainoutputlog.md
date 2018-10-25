@@ -111,3 +111,22 @@ Job ID: 7603840.master.cm.cluster
  runtime: 107.461833 s
 ------------------------------------
 
+#LOG - 25/10/18 4:18 memory access 8000
+
+
+## GCC Default:
+Node: node31-029
+Time: Thu Oct 25 04:07:48 BST 2018
+Job ID: 7603868.master.cm.cluster
+------------------------------------
+ runtime: 380.259937 s
+------------------------------------
+
+## ICC Default:
+Node: node31-039
+Time: Thu Oct 25 04:07:49 BST 2018
+Job ID: 7603875.master.cm.cluster
+------------------------------------
+ runtime: 386.683197 s
+------------------------------------
+
