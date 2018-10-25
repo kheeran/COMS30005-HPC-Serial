@@ -45,3 +45,12 @@ echo "## ICC fast Optimisation flag:" >> outputlog.md
 cat stencilfast-i.out >> outputlog.md
 echo "" >> outputlog.md
 echo "" >> outputlog.md
+echo "#LOG - $varname" >> mainoutputlog.md
+echo "" >> mainoutputlog.md
+echo "" >> mainoutputlog.md
+echo "## GCC Default:" >> mainoutputlog.md
+cat stencilD.out >> mainoutputlog.md
+echo "" >> mainoutputlog.md
+echo "## ICC Default:" >> mainoutputlog.md
+cat stencilD-i.out >> mainoutputlog.md
+echo "" >> mainoutputlog.md

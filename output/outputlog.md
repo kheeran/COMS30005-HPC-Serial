@@ -523,3 +523,111 @@ Job ID: 7603830.master.cm.cluster
 ------------------------------------
 
 
+#LOG - 25/10/18 4:04 memory access 4096
+
+
+## GCC Default:
+Node: node31-029
+Time: Thu Oct 25 03:57:09 BST 2018
+Job ID: 7603833.master.cm.cluster
+------------------------------------
+ runtime: 108.012524 s
+------------------------------------
+
+## GCC Default Optimisation flag:
+Node: node31-030
+Time: Thu Oct 25 03:57:09 BST 2018
+Job ID: 7603834.master.cm.cluster
+------------------------------------
+ runtime: 108.006429 s
+------------------------------------
+
+## GCC O1 Optimisation flag:
+Node: node31-031
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603835.master.cm.cluster
+------------------------------------
+ runtime: 98.669895 s
+------------------------------------
+
+## GCC O2 Optimisation flag:
+Node: node31-032
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603836.master.cm.cluster
+------------------------------------
+ runtime: 98.938209 s
+------------------------------------
+
+## GCC O3 Optimisation flag:
+Node: node31-033
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603837.master.cm.cluster
+------------------------------------
+ runtime: 98.955005 s
+------------------------------------
+
+## GCC Os Optimisation flag:
+Node: node31-034
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603838.master.cm.cluster
+------------------------------------
+ runtime: 98.895647 s
+------------------------------------
+
+## GCC Ofast Optimisation flag:
+Node: node31-035
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603839.master.cm.cluster
+------------------------------------
+ runtime: 14.131302 s
+------------------------------------
+
+## ICC Default:
+Node: node43-038
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603840.master.cm.cluster
+------------------------------------
+ runtime: 107.461833 s
+------------------------------------
+
+## ICC Default Optimisation flag:
+Node: node31-036
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603841.master.cm.cluster
+------------------------------------
+ runtime: 107.347557 s
+------------------------------------
+
+## ICC O2 Optimisation flag:
+Node: node31-037
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603842.master.cm.cluster
+------------------------------------
+ runtime: 49.156370 s
+------------------------------------
+
+## ICC O3 Optimisation flag:
+Node: node31-038
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603843.master.cm.cluster
+------------------------------------
+ runtime: 49.334832 s
+------------------------------------
+
+## ICC Ofast Optimisation flag:
+Node: node31-039
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603844.master.cm.cluster
+------------------------------------
+ runtime: 5.888924 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node43-037
+Time: Thu Oct 25 03:57:10 BST 2018
+Job ID: 7603845.master.cm.cluster
+------------------------------------
+ runtime: 5.512901 s
+------------------------------------
+
+
