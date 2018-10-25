@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 
   // Initiliase problem dimensions from command line arguments
   // int nx = atoi(argv[1]);
-  int nx = atoi("8000");
+  int nx = atoi("1024");
   int ny = nx;
   // int ny = atoi(argv[2]);
   int niters = atoi(argv[3]);
@@ -51,8 +51,8 @@ int main(int argc, char *argv[]) {
 }
 
 void stencil(const int nx, const int ny, double *  image, double *  tmp_image) {
-  for (int j = 0; j < ny; ++j) {
-    for (int i = 0; i < nx; ++i) {
+  for (int i = 0; i < ny; ++i) {
+    for (int j = 0; j < nx; ++j) {
       tmp_image[j+i*ny] = image[j+i*ny] * 3.0/5.0;
       if (i > 0)    tmp_image[j+i*ny] += image[j  +(i-1)*ny] * 0.5/5.0;
       if (i < nx-1) tmp_image[j+i*ny] += image[j  +(i+1)*ny] * 0.5/5.0;
