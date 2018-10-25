@@ -301,3 +301,22 @@ Job ID: 7613998.master.cm.cluster
  runtime: 5.861757 s
 ------------------------------------
 
+#LOG - 25/10/18 16:03 constraining the floats
+
+
+## GCC Default:
+Node: node31-031
+Time: Thu Oct 25 15:59:44 BST 2018
+Job ID: 7616394.master.cm.cluster
+------------------------------------
+ runtime: 4.805293 s
+------------------------------------
+
+## ICC Default:
+Node: node43-039
+Time: Thu Oct 25 15:59:45 BST 2018
+Job ID: 7616401.master.cm.cluster
+------------------------------------
+ runtime: 4.706912 s
+------------------------------------
+
