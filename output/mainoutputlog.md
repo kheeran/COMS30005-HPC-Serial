@@ -149,3 +149,22 @@ Job ID: 7603922.master.cm.cluster
  runtime: 242.870861 s
 ------------------------------------
 
+#LOG - 25/10/18 4:43 division to constants 4096
+
+
+## GCC Default:
+Node: node31-029
+Time: Thu Oct 25 04:39:08 BST 2018
+Job ID: 7603943.master.cm.cluster
+------------------------------------
+ runtime: 72.750537 s
+------------------------------------
+
+## ICC Default:
+Node: node43-038
+Time: Thu Oct 25 04:39:09 BST 2018
+Job ID: 7603950.master.cm.cluster
+------------------------------------
+ runtime: 71.050412 s
+------------------------------------
+
