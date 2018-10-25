@@ -17,14 +17,14 @@ stencil-Ofast: stencil.c
 #gcc -g -pg -static-libgcc
 
 stencil-D-i:stencil.c
-	icc -std=c11 -g -pg -Wall $^ -o $@
+	icc -std=c11 -g -pg -qopt-report=5 -Wall $^ -o $@
 stencil-O-i: stencil.c
-	icc -std=c11 -g -pg -Wall -O0 $^ -o $@
+	icc -std=c11 -g -pg -qopt-report=5 -Wall -O0 $^ -o $@
 stencil-O2-i: stencil.c
-	icc -std=c11 -g -pg -Wall -O2 $^ -o $@
+	icc -std=c11 -g -pg -qopt-report=5 -Wall -O2 $^ -o $@
 stencil-O3-i: stencil.c
-	icc -std=c11 -g -pg -Wall -O3 $^ -o $@
+	icc -std=c11 -g -pg -qopt-report=5 -Wall -O3 $^ -o $@
 stencil-Ofast-i: stencil.c
-	icc -std=c11 -g -pg -Wall -Ofast $^ -o $@
+	icc -std=c11 -g -pg -qopt-report=5 -Wall -Ofast $^ -o $@
 stencil-fast-i: stencil.c
-	icc -std=c11 -g -pg -Wall -fast $^ -o $@
+	icc -std=c11 -g -pg -qopt-report=5 -Wall -fast $^ -o $@

@@ -263,3 +263,22 @@ Job ID: 7604097.master.cm.cluster
  runtime: 349.393266 s
 ------------------------------------
 
+#LOG - 25/10/18 12:40 using std=11 instead of std=99
+
+
+## GCC Default:
+Node: node31-036
+Time: Thu Oct 25 12:25:55 BST 2018
+Job ID: 7613757.master.cm.cluster
+------------------------------------
+ runtime: 4.486846 s
+------------------------------------
+
+## ICC Default:
+Node: node31-036
+Time: Thu Oct 25 12:27:01 BST 2018
+Job ID: 7613764.master.cm.cluster
+------------------------------------
+ runtime: 4.433494 s
+------------------------------------
+
