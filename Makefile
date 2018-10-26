@@ -27,4 +27,4 @@ stencil-O3-i: stencil.c
 stencil-Ofast-i: stencil.c
 	icc -std=c11 -g -pg -Wall -Ofast $^ -o $@
 stencil-fast-i: stencil.c
-	icc -std=c11 -g -pg -qopt-report=5 -Wall -fast $^ -o $@
+	icc -std=c11 -g -pg -qopt-report-phase=vec -qopt-report=5 -Wall -fast -xAVX $^ -o $@
