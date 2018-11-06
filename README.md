@@ -16,7 +16,7 @@
 4. Different compilers
 	- using 2 different compilers, Intel and GNU, to find out whcih optimises the code better. 
 5. Optimisation
-	- Used several parallel optimisation techniques documented in the report 
+	- Used several parallel optimisation techniques, documented in the report 
 
 
 ----------------------------------------------------------------------------------------------------------------
