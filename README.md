@@ -15,7 +15,8 @@
 	- Made separate folders for output and errors.
 4. Different compilers
 	- using 2 different compilers, Intel and GNU, to find out whcih optimises the code better. 
-5.
+5. Optimisation
+	- used several serial optimisation techniques, documented in the report
 
 
 ----------------------------------------------------------------------------------------------------------------
