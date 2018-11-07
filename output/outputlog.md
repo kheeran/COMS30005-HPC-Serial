@@ -2263,3 +2263,140 @@ Job ID: 7622247.master.cm.cluster
 ------------------------------------
 
 
+#LOG - hardcoding the parameters
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 17:15:39 GMT 2018
+Job ID: 7668167.master.cm.cluster
+------------------------------------
+ runtime: 0.097989 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 17:16:12 GMT 2018
+Job ID: 7668168.master.cm.cluster
+------------------------------------
+ runtime: 0.090465 s
+------------------------------------
+
+
+#LOG - testing why hardcoding works
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 17:32:11 GMT 2018
+Job ID: 7668283.master.cm.cluster
+------------------------------------
+ runtime: 0.309514 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 17:32:11 GMT 2018
+Job ID: 7668284.master.cm.cluster
+------------------------------------
+ runtime: 0.327696 s
+------------------------------------
+
+
+#LOG - reading from only 1 user input
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 17:36:04 GMT 2018
+Job ID: 7668292.master.cm.cluster
+------------------------------------
+ runtime: 0.097978 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 17:36:03 GMT 2018
+Job ID: 7668293.master.cm.cluster
+------------------------------------
+ runtime: 0.089721 s
+------------------------------------
+
+
+#LOG - ignoring all user input
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 17:41:34 GMT 2018
+Job ID: 7668367.master.cm.cluster
+------------------------------------
+ runtime: 0.098824 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 17:41:34 GMT 2018
+Job ID: 7668368.master.cm.cluster
+------------------------------------
+ runtime: 0.089538 s
+------------------------------------
+
+
+#LOG - not assigning ny via nx
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 17:44:21 GMT 2018
+Job ID: 7668372.master.cm.cluster
+------------------------------------
+ runtime: 0.318399 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 17:44:21 GMT 2018
+Job ID: 7668373.master.cm.cluster
+------------------------------------
+ runtime: 0.328626 s
+------------------------------------
+
+
+#LOG - adding conditional ny assignment
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 17:55:56 GMT 2018
+Job ID: 7668507.master.cm.cluster
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 17:55:55 GMT 2018
+Job ID: 7668508.master.cm.cluster
+------------------------------------
+ runtime: 0.000001 s
+------------------------------------
+
+
+#LOG - better conditional?
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 18:07:36 GMT 2018
+Job ID: 7668689.master.cm.cluster
+------------------------------------
+ runtime: 0.098220 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 18:07:36 GMT 2018
+Job ID: 7668690.master.cm.cluster
+------------------------------------
+ runtime: 0.088438 s
+------------------------------------
+
+

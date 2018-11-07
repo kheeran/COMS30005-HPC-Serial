@@ -780,3 +780,214 @@ Warning: Permanently added 'node46-017,10.131.1.41' (RSA) to the list of known h
 ## ICC fast Optimisation flag:
 
 
+#LOG - hardcoding the parameters
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+
+#LOG - testing why hardcoding works
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+
+#LOG - reading from only 1 user input
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+
+#LOG - ignoring all user input
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+
+#LOG - not assigning ny via nx
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+
+#LOG - adding conditional ny assignment
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+/cm/local/apps/torque/4.2.4.1/spool/mom_priv/jobs/7668507.master.cm.cluster.SC: line 16: 56795 Segmentation fault      ./stencil-Ofast-i 1024 1024 100
+
+## ICC fast Optimisation flag:
+
+
+#LOG - better conditional?
+
+
+## GCC Default:
+
+## GCC Default Optimisation flag:
+
+## GCC O1 Optimisation flag:
+
+## GCC O2 Optimisation flag:
+
+## GCC O3 Optimisation flag:
+
+## GCC Os Optimisation flag:
+
+## GCC Ofast Optimisation flag:
+
+## ICC Default:
+
+## ICC Default Optimisation flag:
+
+## ICC O2 Optimisation flag:
+
+## ICC O3 Optimisation flag:
+
+## ICC Ofast Optimisation flag:
+
+## ICC fast Optimisation flag:
+
+

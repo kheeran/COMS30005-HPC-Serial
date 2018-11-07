@@ -1,5 +1,5 @@
-#all: stencil-D stencil-O0 stencil-O1 stencil-O2 stencil-O3 stencil-Os stencil-Ofast stencil-D-i stencil-O-i stencil-O2-i stencil-O3-i stencil-Ofast-i stencil-fast-i
-all: stencil-fast-i
+all: stencil-D stencil-O0 stencil-O1 stencil-O2 stencil-O3 stencil-Os stencil-Ofast stencil-D-i stencil-O-i stencil-O2-i stencil-O3-i stencil-Ofast-i stencil-fast-i
+#all: stencil-fast-i
 
 stencil-D:stencil.c
 	gcc -std=c11 -g -pg -Wall $^ -o $@
