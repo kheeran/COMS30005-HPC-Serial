@@ -2440,7 +2440,7 @@ Job ID: 7668891.master.cm.cluster
 ------------------------------------
 
 
-#LOG - subitted code 8000
+#LOG - submitted code 8000
 
 
 ## ICC Ofast Optimisation flag:
