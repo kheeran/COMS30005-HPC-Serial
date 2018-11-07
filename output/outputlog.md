@@ -2400,3 +2400,63 @@ Job ID: 7668690.master.cm.cluster
 ------------------------------------
 
 
+#LOG - back to submission state
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 18:36:56 GMT 2018
+Job ID: 7668835.master.cm.cluster
+------------------------------------
+ runtime: 0.311997 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 18:36:56 GMT 2018
+Job ID: 7668836.master.cm.cluster
+------------------------------------
+ runtime: 0.328189 s
+------------------------------------
+
+
+#LOG - submitted code 4096
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 18:44:10 GMT 2018
+Job ID: 7668890.master.cm.cluster
+------------------------------------
+ runtime: 5.194380 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 18:44:10 GMT 2018
+Job ID: 7668891.master.cm.cluster
+------------------------------------
+ runtime: 5.403501 s
+------------------------------------
+
+
+#LOG - subitted code 8000
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-029
+Time: Wed Nov 7 18:59:04 GMT 2018
+Job ID: 7669000.master.cm.cluster
+------------------------------------
+ runtime: 19.695479 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Wed Nov 7 18:59:05 GMT 2018
+Job ID: 7669001.master.cm.cluster
+------------------------------------
+ runtime: 20.536869 s
+------------------------------------
+
+
