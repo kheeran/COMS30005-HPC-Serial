@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
   //  int ny = ny_temp;
   //} 
   //int niters = atoi(argv[3]);
-  int nx = atoi("8000");
-  int ny = atoi("8000");
+  int nx = atoi(argv[1]);
+  int ny = atoi(argv[2]);
   int niters = atoi(argv[3]);  
 
 

@@ -2460,3 +2460,43 @@ Job ID: 7669001.master.cm.cluster
 ------------------------------------
 
 
+#LOG - test
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-029
+Time: Thu Nov 8 12:09:28 GMT 2018
+Job ID: 7674611.master.cm.cluster
+------------------------------------
+ runtime: 0.098982 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Thu Nov 8 12:08:56 GMT 2018
+Job ID: 7674612.master.cm.cluster
+------------------------------------
+ runtime: 0.089379 s
+------------------------------------
+
+
+#LOG - newtest
+
+
+## ICC Ofast Optimisation flag:
+Node: node31-029
+Time: Thu Nov 8 12:11:37 GMT 2018
+Job ID: 7674615.master.cm.cluster
+------------------------------------
+ runtime: 0.311704 s
+------------------------------------
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Thu Nov 8 12:11:05 GMT 2018
+Job ID: 7674616.master.cm.cluster
+------------------------------------
+ runtime: 0.328629 s
+------------------------------------
+
+
