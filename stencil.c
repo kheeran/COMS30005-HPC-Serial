@@ -19,17 +19,17 @@ int main(int argc, char *argv[]) {
   }
 
   // Initiliase problem dimensions from command line arguments
-  
+
   //int nx = atoi(argv[1]);
   //int ny = nx;
   //int ny_temp = atoi(argv[2]);
   //if (nx != ny_temp){
   //  int ny = ny_temp;
-  //} 
+  //}
   //int niters = atoi(argv[3]);
   int nx = atoi(argv[1]);
   int ny = atoi(argv[2]);
-  int niters = atoi(argv[3]);  
+  int niters = atoi(argv[3]);
 
 
   // Allocate the image
@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
   double tic = wtime();
   for (int t = 0; t < niters; ++t) {
     stencil(nx, ny, image, tmp_image);
-    stencil(nx, ny, tmp_image, image);
+    stencil2(nx, ny, tmp_image, image);
   }
   double toc = wtime();
 
@@ -58,6 +58,18 @@ int main(int argc, char *argv[]) {
 }
 
 void stencil(const int nx, const int ny, float * restrict  image, float * restrict  tmp_image) {
+  for (int i = 0; i < ny; ++i) {
+    for (int j = 0; j < nx; ++j) {
+      tmp_image[j+i*ny] = image[j+i*ny] * 0.6f;
+      if (i > 0)    tmp_image[j+i*ny] += image[j  +(i-1)*ny] * 0.1f;
+      if (i < nx-1) tmp_image[j+i*ny] += image[j  +(i+1)*ny] * 0.1f;
+      if (j > 0)    tmp_image[j+i*ny] += image[j-1+i*ny] * 0.1f;
+      if (j < ny-1) tmp_image[j+i*ny] += image[j+1+i*ny] * 0.1f;
+    }
+  }
+}
+
+void stencil2(const int nx, const int ny, float * restrict  image, float * restrict  tmp_image) {
   for (int i = 0; i < ny; ++i) {
     for (int j = 0; j < nx; ++j) {
       tmp_image[j+i*ny] = image[j+i*ny] * 0.6f;
