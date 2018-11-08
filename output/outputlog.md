@@ -2500,3 +2500,51 @@ Job ID: 7674616.master.cm.cluster
 ------------------------------------
 
 
+#LOG - ???
+
+
+## ICC fast Optimisation flag:
+Node: node31-030
+Time: Thu Nov 8 12:23:26 GMT 2018
+Job ID: 7674632.master.cm.cluster
+------------------------------------
+ runtime: 0.089770 s
+------------------------------------
+
+
+#LOG - normal
+
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Thu Nov 8 18:30:23 GMT 2018
+Job ID: 7675427.master.cm.cluster
+------------------------------------
+ runtime: 0.327289 s
+------------------------------------
+
+
+#LOG - using 2 stencil functions
+
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Thu Nov 8 18:32:31 GMT 2018
+Job ID: 7675428.master.cm.cluster
+------------------------------------
+ runtime: 0.327573 s
+------------------------------------
+
+
+#LOG - normal again 1024
+
+
+## ICC fast Optimisation flag:
+Node: node31-029
+Time: Thu Nov 8 18:39:00 GMT 2018
+Job ID: 7675439.master.cm.cluster
+------------------------------------
+ runtime: 0.327666 s
+------------------------------------
+
+
