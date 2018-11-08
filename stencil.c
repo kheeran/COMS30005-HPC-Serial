@@ -6,6 +6,7 @@
 #define OUTPUT_FILE "stencil.pgm"
 
 void stencil(const int nx, const int ny, float * restrict  image, float * restrict  tmp_image);
+void stencil2(const int nx, const int ny, float * restrict  image, float * restrict  tmp_image);
 void init_image(const int nx, const int ny, float * restrict  image, float * restrict  tmp_image);
 void output_image(const char * file_name, const int nx, const int ny, float * restrict image);
 double wtime(void);
