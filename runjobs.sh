@@ -11,5 +11,5 @@
 #qsub stencilO-i.job
 #qsub stencilO2-i.job
 #qsub stencilO3-i.job
-qsub stencilOfast-i.job
+#qsub stencilOfast-i.job
 qsub stencilfast-i.job
