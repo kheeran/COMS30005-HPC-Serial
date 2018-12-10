@@ -1,2 +1,0 @@
-nx*ny*4(float)*6(1 write and 5 reads)*2(img and temp_img)*niter /time
-
