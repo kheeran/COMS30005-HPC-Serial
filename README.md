@@ -1,12 +1,8 @@
 # **COMS30005 Intro to HPC**
 
-### Assignment 2 - Parallel Optimisation :
+### Assignment 1 - Serial Optimisation :
 
-*Follows directly from the serially optimised code from the first courseword (branch cw1)*
-
-1. Optimisation
-	- Optimised the for loop by removing the conditional branches (serial)
-	- Used several parallel optimisation techniques, documented in the report 
+**Details of the optimisations used are in report.pdf**
 
 ----------------------------------------------------------------------------------------------------------------
 QUESTION:
